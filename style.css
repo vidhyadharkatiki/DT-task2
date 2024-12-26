@@ -1,0 +1,473 @@
+body{
+    margin: 0;
+    border: 0;
+    font-family: Poppins;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px solid blue;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    box-shadow: 0px 2.5px 2.5px rgba(0, 0, 0, 0.25);
+
+}
+form{
+    display: flex;
+}
+div{
+    display: flex;
+}
+
+.logo-portion{
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+}
+#fas{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(0, 0, 255,0.7);
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    margin-right: 120px;
+}
+h2{
+    margin-left: 10px;
+}
+section{
+    display: flex;
+}
+#spaceleft{
+    width: 50px;
+}
+
+.right{
+    height: 450px;
+    width: 7.5%;
+    box-shadow: -2.5px 2.5px 2.5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 0px 15px 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.mainbox{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;   
+}
+.main > .button{
+    height: 40px;
+    width: 120px;
+    border: 5px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+}
+.main > .heading{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight:600;
+}
+.main > .heading , .button{
+    margin-top: 15px;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 128, 128 , 0.25);
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 90%;
+
+}
+.info > h3{
+    margin-right: 875px;
+}
+.info > div{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.topic{
+    height: 580px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1.5px 1.5px 0.25px  rgba(0, 0, 0, 0.25),-1.5px -1.5px 0.25px  rgba(0, 0, 0, 0.25);
+    margin: 40px 40px 40px 40px;
+    border-radius: 16px;
+}
+.topic > .top{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.desc{
+    height: 86px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.intro{
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgba(250, 235, 215,0.55);
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.fa-chevron-up{
+    margin-left: 20px;
+}
+.thread{
+    margin-left: 80px;
+}
+.sub_intro{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub1{
+    margin-top: 10px;
+    height: 105px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+}
+.sub11{
+    display: flex;
+    align-items: center;    
+    height: 45px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid white ;
+    background-color: rgba(128, 128, 128,0.1);
+    border: 0.5px solid whitesmoke;
+}
+.sub12{
+    display: flex;
+    height: 65px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 0.25px rgba(0, 0, 0, 0.3), 0px 0px 0px 0.25px rgba(0, 0, 0, 0.4);
+    position: relative;
+    border: 1px solid white ;
+    bottom: 6px;
+}
+
+.list{
+    margin-top: 5px;
+    height: 20px;
+    width: 120px;
+}
+#l1{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.catlog,.process{
+    height: 32px;
+    width: 110px;
+    box-shadow: 1.5px 1.5px 0.25px  rgba(0, 0, 0, 0.35),-1.5px -1.5px 0.25px  rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.process{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.listing{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Sub-thread{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.Sub-thread::before{
+    content: "+";
+    font-size:1.25rem;
+    font-weight: 600;
+    margin-right: 5px;
+
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#information{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 28px;
+}
+.build{
+    color: white;
+    margin-right: 28%;
+    font-size: 1.25rem;
+}
+
+.video{
+
+    height: 300px;
+    width: 480px;
+    /* background-color: red; */
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.tintro{
+    margin-top: 10px;
+    height: 40px;
+    width: 450px;
+    margin-left: 15px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.iintro{
+    background-color: white;
+    height: 40px;
+    width: 450px;
+    margin-left: 15px;
+    border: 1px solid  gainsboro;
+
+}
+
+.exintro{
+    background-color: white;
+    height: 40px;
+    width: 450px;
+    margin-left: 15px;
+    border: 1px solid  gainsboro;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    margin-left: 20px;
+    border: 1px solid  gainsboro;
+}
+#op{
+    width: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.boxtext{
+    height: 150px;
+    width: 89%;
+    margin-left:20px ;
+}
+
+.textbox{
+    height: 50px;
+}
+
+.pointer{
+    height: 120px;
+}
+
+.title,.content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gainsboro;
+    border-radius: 0px 0px 12px 12px;
+}
+
+#method1{
+    display: flex;
+    justify-content: center;
+    width:  420px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.more{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+.color{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#ficon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.tech{
+    position: relative;
+    left: 70px;
+}
+.structure{
+    position: relative;
+    left: 20px;
+}
+.cross{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40px;
+    color: white;
+    background-color: #000000;
+    border-radius: 15px 0px 0px 15px;
+    flex-direction: column;
+}
+
+#cross{
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+@keyframes slide {
+    0% {
+        left: -100px;
+    }
+    100% {
+        left: 0px; 
+    }
+}
+
+
+@keyframes slideback {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -100px; 
+    }
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    position: fixed;
+    width: 200px;
+    top: 100px;;
+    left: -100px;
+    padding: 0;
+    box-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 15px 15px 15px;
+    z-index: 2;
+    background-color: white;
+}
+
+#Journey{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 33%;
+}
+
+#block{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
